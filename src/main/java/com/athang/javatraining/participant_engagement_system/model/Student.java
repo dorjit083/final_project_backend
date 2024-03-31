@@ -21,7 +21,15 @@ public class Student {
     private Date endingDate;
     private String status;
     private String comments;
+    private int duration;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     public String getStatus() {
         return status;
     }
@@ -60,17 +68,6 @@ public class Student {
 
     public void setDuration(int duration) {
         this.duration = duration;
-    }
-
-    private int duration;
-
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
